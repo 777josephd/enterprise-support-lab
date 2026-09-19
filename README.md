@@ -1,7 +1,5 @@
 # Enterprise Support Lab
 
-One sentence description here.
-
 ## Overview
 
 A self-built enterprise lab environment designed to simulate real-world IT infrastructure and operations.  
@@ -10,7 +8,7 @@ It covers Windows Server administration, M365 administration, and IT service man
 Built on Proxmox, managed remotely via PowerShell and RSAT.
 
 ## Lab Diagram
-[diagram]
+![Lab](diagrams/diagram-1.png)
 
 This is the current iteration of the lab topology, updated as the environment evolves to reflect the current state.
 
