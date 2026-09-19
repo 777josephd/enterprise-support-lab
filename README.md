@@ -21,7 +21,7 @@ This is the current iteration of the lab topology, updated as the environment ev
 
 ## Repo Index
 
-### [Enterprise AD Infrastructure](.\enterprise-ad-infrastructure)
+### [Enterprise AD Infrastructure](./enterprise-ad-infrastructure)
 
 AD DS, DNS, DHCP, GPO, OU design, admin tier model.
 
@@ -36,7 +36,7 @@ AD DS, DNS, DHCP, GPO, OU design, admin tier model.
 │   └── troubleshooting/
 ```
 
-### [Microsoft 365 Administration](.\m365-administration)
+### [Microsoft 365 Administration](./m365-administration)
 
 Entra ID, Intune, compliance, endpoint management.
 
@@ -49,7 +49,7 @@ Entra ID, Intune, compliance, endpoint management.
 │   └── troubleshooting/
 ```
 
-### [IT Service Operations](.\it-service-operations)
+### [IT Service Operations](./it-service-operations)
 
 ServiceNow ITSM, ticketing workflows, KB articles, onboarding/offboarding.
 
