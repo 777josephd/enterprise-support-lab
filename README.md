@@ -21,7 +21,7 @@ This is the current iteration of the lab topology, updated as the environment ev
 
 ## Repo Index
 
-### [Windows Server Infrastructure](.\windows-server-infrastructure)
+### [Enterprise AD Infrastructure](.\enterprise-ad-infrastructure)
 
 AD DS, DNS, DHCP, GPO, OU design, admin tier model.
 
