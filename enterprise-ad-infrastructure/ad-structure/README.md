@@ -34,7 +34,3 @@ SOC-LAB.local
 
 - `Protect object from accidental deletion` is enabled on all OUs. Disable via `View > Advanced Features` in ADUC before moving or deleting objects. Re-enable after.
 - Initial flat OUs (Groups, HR, IT, Sales) were created in an earlier iteration. Restructured to current hierarchy in this session.
-
-![OU restructure](./assets/ou-restructure.png)
-![Object placement](./assets/ou-object-placement.png)
-![Workstation OU](./assets/workstation-ou.png)
