@@ -1,0 +1,40 @@
+# AD Structure
+
+OU structure follows a minimal enterprise-aligned model. Default containers are not used for managed objects. All OUs use an underscore prefix to avoid naming conflicts with built-in containers.
+
+## OU Hierarchy
+
+```
+SOC-LAB.local
+├── _Admin
+│   ├── Tier0-Accounts    ← Domain Admin accounts. DC administration only.
+│   └── Tier1-Accounts    ← Server admin accounts.
+├── _Computers
+│   ├── Workstations      ← Win11 endpoint
+│   └── Servers
+├── _Users
+│   ├── IT
+│   ├── HR
+│   └── Finance
+├── _Groups
+│   └── Security
+└── _Service-Accounts
+```
+
+## Object Placement
+
+| Object | OU |
+|---|---|
+| Win11 endpoint | `_Computers\Workstations` |
+| Domain Admin account (`adm-t0-1`) | `_Admin\Tier0-Accounts` |
+| Built-in Administrator | Default container — break-glass only |
+| Department users | `_Users\<department>` |
+
+## Notes
+
+- `Protect object from accidental deletion` is enabled on all OUs. Disable via `View > Advanced Features` in ADUC before moving or deleting objects. Re-enable after.
+- Initial flat OUs (Groups, HR, IT, Sales) were created in an earlier iteration. Restructured to current hierarchy in this session.
+
+![OU restructure](./assets/ou-restructure.png)
+![Object placement](./assets/ou-object-placement.png)
+![Workstation OU](./assets/workstation-ou.png)
