@@ -17,7 +17,7 @@ This is the current iteration of the lab topology, updated as the environment ev
 | Hostname | IP | Role | OS |
 |---|---|---|---|
 | WinDC-01 | 10.0.10.111 | Active Directory Domain Controller | Windows Server 2022 |
-| Win11 | 10.0.10.113 | Windows 11 Endpoint | Windows 11 |
+| DESKTOP-P1NSWB9 | 10.0.10.113 | Windows 11 Endpoint | Windows 11 |
 
 ## Repo Index
 
