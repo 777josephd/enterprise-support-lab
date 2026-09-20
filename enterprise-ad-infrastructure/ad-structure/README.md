@@ -10,12 +10,12 @@ SOC-LAB.local
 │   ├── Tier0-Accounts    ← Domain Admin accounts. DC administration only.
 │   └── Tier1-Accounts    ← Server admin accounts.
 ├── _Computers
-│   ├── Workstations      ← Win11 endpoint
+│   ├── Workstations
 │   └── Servers
 ├── _Users
 │   ├── IT
 │   ├── HR
-│   └── Finance
+│   └── Sales
 ├── _Groups
 │   └── Security
 └── _Service-Accounts
