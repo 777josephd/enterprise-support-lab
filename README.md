@@ -57,9 +57,6 @@ ServiceNow ITSM, ticketing workflows, KB articles, onboarding/offboarding.
 ```
 └── it-service-operations/
     ├── README.md
-    ├── servicenow/
-    ├── kb-articles/
-    ├── onboarding-offboarding/
     └── ticketing-workflows/
 ```
 
