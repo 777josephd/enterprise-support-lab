@@ -8,7 +8,7 @@ It covers Windows Server administration, M365 administration, and IT service man
 Built on Proxmox, managed remotely via PowerShell and RSAT.
 
 ## Lab Diagram
-![Lab](diagrams/diagram-1.png)
+![Lab](diagrams/diagram-2.png)
 
 This is the current iteration of the lab topology, updated as the environment evolves to reflect the current state.
 
