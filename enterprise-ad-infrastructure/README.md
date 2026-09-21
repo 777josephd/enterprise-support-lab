@@ -7,7 +7,8 @@ Windows Server 2022 Active Directory environment built on Proxmox, administered 
 | Hostname | IP | Roles | OS |
 |---|---|---|---|
 | WinDC-01 | 10.0.10.111 | DC, AD DS, DNS, DHCP | Windows Server 2022 |
-| DESKTOP-P1NSWB9 | 10.0.10.113 | Domain-joined endpoint, RSAT management workstation | Windows 11 |
+| WIN11-ADMIN | 10.0.10.100 | Domain-joined endpoint, RSAT management workstation | Windows 11 | 
+| WIN11-WS | 10.0.10.113 | Domain-joined endpoint, standard user workstation | Windows 11 |
 
 ## Domain and Network
 **Domain:** `soc-lab.local`  
