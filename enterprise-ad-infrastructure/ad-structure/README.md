@@ -26,7 +26,7 @@ SOC-LAB.local
 | Object | OU |
 |---|---|
 | Win11 endpoint | `_Computers\Workstations` |
-| Domain Admin account (`adm-t0-1`) | `_Admin\Tier0-Accounts` |
+| Domain Admin account (`adm-t0-jd`) | `_Admin\Tier0-Accounts` |
 | Built-in Administrator | Default container — break-glass only |
 | Department users | `_Users\<department>` |
 
