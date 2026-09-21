@@ -1,24 +1,13 @@
 # DNS
 
-AD-integrated DNS, installed as part of DC promotion.  
-`WinDC-01` is the sole DNS server for `soc-lab.local`.
-
-## Configuration
+AD-integrated DNS, installed as part of DC promotion. WinDC-01 is the sole DNS server for soc-lab.local.
 
 | Setting | Value |
 |---|---|
-| Zone | `soc-lab.local` - AD-integrated, auto-created at promotion |
-| DNS Server | `10.0.10.111` (WinDC-01) |
-| DC NIC DNS | Self (`10.0.10.111`) |
-| Client DNS | Distributed via DHCP scope option |
+| Zone | soc-lab.local |
+| DNS Server | 10.0.10.111 (WinDC-01) |
 
-## Verification
+## Notes:
 
-```powershell
-Resolve-DnsName soc-lab.local
-Resolve-DnsName WinDC-01.soc-lab.local
-```
-## Notes
-
-- DC NIC DNS is set to self. Prevents resolution failures independent of DHCP.
-- Clients do not required manual DNS configuration. DHCP scope option handles distribution.
+- DC NIC DNS is set to self. Prevents resolution failures independent of client configuration.
+- WIN11-WS DNS is configured statically on the NIC, does not rely on DHCP.
