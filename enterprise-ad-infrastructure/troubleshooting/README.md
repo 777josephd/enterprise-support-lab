@@ -15,13 +15,7 @@ Proxmox cloning copies the disk byte-for-byte. The cloned machine retains the so
 **Resolution**
 Run sysprep to generalize the machine, then rejoin.
 
-```powershell
-C:\Windows\System32\Sysprep\sysprep.exe /generalize /oobe /reboot
-Set-DnsClientServerAddress -InterfaceIndex (Get-NetAdapter).ifIndex -ServerAddresses 10.0.10.111
-Add-Computer -DomainName "soc-lab.local" -Credential SOC-LAB\Administrator -Restart
-```
-
-> DNS must be reset after sysprep. The generalize pass resets network configuration.
+DNS must be reset after sysprep. The generalize pass resets network configuration.
 
 ---
 
@@ -50,8 +44,3 @@ Remove quotation marks from the wallpaper path in the GPO setting. Run `gpupdate
 Microsoft's documented recommendation is to configure account policies directly in `Default Domain Policy`. Standalone GPO deleted.
 
 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
-
-```powershell
-gpupdate /force
-net accounts /domain
-```
