@@ -4,7 +4,7 @@
 |---|---|---|---|
 | INC0010003 | Alice Anderson | IT Help Desk | User account locked out, unable to log in |
 
-## Methodology
+## Workflow
 
 Navigate to ADUC, locate the user's account and verify: `Unlock account. This account is currently locked out on this Active Directory Domain Controller.`
 
