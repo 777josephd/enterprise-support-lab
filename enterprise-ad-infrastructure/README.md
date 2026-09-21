@@ -1,6 +1,6 @@
 # Enterprise AD Infrastructure
 
-Windows Server 2022 Active Directory environment built on Proxmox, administered remotely via PowerShell and RSAT.
+Windows Server 2022 Active Directory environment built on Proxmox, administered remotely RSAT.
 
 ## Infrastructure Summary
 
@@ -49,10 +49,11 @@ soc-lab.local
 
 ## GPOs
 
-| GPO	| Linked To	| Purpose	| Status
-|---|---|---|---|
-| Account-Lockout-Policy | Domain	| Account lockout thresholds | Active |
-| IT-Wallpaper | _Users\IT |	Enforces IT department desktop wallpaper | Active |
+| GPO | Scope | Purpose |
+|---|---|---|
+| Desktop-Wallpaper-Policy | `_Users\IT` | Enforces department wallpaper |
+| Workstation-LocalAdmin-T2 | `_Computers\Workstations` | Assigns T2 accounts as local admins |
+| Default Domain Policy | Domain Root | Account lockout settings |
 
 ## Users and Departments
 
