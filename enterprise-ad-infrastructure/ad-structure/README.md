@@ -7,8 +7,8 @@ OU structure follows a minimal enterprise-aligned model. Default containers are 
 ```
 SOC-LAB.local
 ├── _Admin
-│   ├── Tier0-Accounts    ← Domain Admin accounts. DC administration only.
-│   └── Tier1-Accounts    ← Server admin accounts.
+│   ├── Tier0-Accounts
+│   └── Tier2-Accounts
 ├── _Computers
 │   ├── Workstations
 │   └── Servers
