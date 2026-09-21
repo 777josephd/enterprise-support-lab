@@ -56,9 +56,12 @@ soc-lab.local
 
 ## Users and Departments
 
-| Department | Users | OU Path |
-|---|---|---|
-| IT | ccarter | - |
+| Department | Users |
+|---|---|
+| HR | aanderson |
+| Sales | bbrooks |
+| IT | ccarter |
+| IT | ddixon |
 
 ## References
 
