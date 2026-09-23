@@ -44,8 +44,7 @@ Entra ID, Intune, compliance, endpoint management.
 ```
 ├── m365-administration/
 │   ├── README.md
-│   ├── entra/
-│   └── troubleshooting/
+│   └── entra/
 ```
 
 ### [IT Service Operations](./it-service-operations)
