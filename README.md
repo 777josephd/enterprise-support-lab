@@ -39,7 +39,7 @@ AD DS, DNS, DHCP, GPO, OU design, admin tier model.
 
 ### [Microsoft 365 Administration](./m365-administration)
 
-Entra ID, Intune, compliance, endpoint management.
+Entra ID, endpoint management.
 
 ```
 ├── m365-administration/
@@ -49,7 +49,7 @@ Entra ID, Intune, compliance, endpoint management.
 
 ### [IT Service Operations](./it-service-operations)
 
-ServiceNow ITSM, ticketing workflows, KB articles, onboarding/offboarding.
+ServiceNow ITSM, ticketing workflows..
 
 ```
 └── it-service-operations/
