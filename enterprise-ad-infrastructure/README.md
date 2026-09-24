@@ -1,6 +1,6 @@
 # Enterprise AD Infrastructure
 
-Windows Server 2022 Active Directory environment built on Proxmox, administered remotely RSAT.
+Windows Server 2022 Active Directory environment built on Proxmox, administered remotely via RSAT.
 
 ## Infrastructure Summary
 
